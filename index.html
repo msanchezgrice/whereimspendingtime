@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where I Am Spending Time  Coming Soon</title>
+    <meta name="description" content="Track time, focus, and tradeoffs with clarity." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Where I Am Spending Time" />
+    <meta property="og:description" content="Track time, focus, and tradeoffs with clarity." />
+    <meta property="og:url" content="https://whereimspendingtime.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Where I Am Spending Time" />
+    <meta name="twitter:description" content="Track time, focus, and tradeoffs with clarity." />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script>
+      window.SITE_ID = "whereimspendingtime.com";
+      window.SITE_NAME = "Where I Am Spending Time";
+    </script>
+    <script src="posthog.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <header class="site-header">
+      <div class="logo">Where I Am Spending Time</div>
+      <span class="pill">Coming soon</span>
+    </header>
+
+    <main>
+      <section class="hero" data-reveal>
+        <p class="kicker">See where your attention really goes.</p>
+        <h1>Where I Am Spending Time</h1>
+        <p class="subtitle">Track time, focus, and tradeoffs with clarity.</p>
+        <form id="waitlist-form" class="waitlist" data-reveal>
+          <input
+            type="email"
+            name="email"
+            placeholder="you@domain.com"
+            aria-label="Email address"
+            required
+          />
+          <button type="submit" data-ph-event="waitlist_submit">Subscribe for updates</button>
+        </form>
+        <p id="waitlist-status" class="status">No spam. Just progress updates.</p>
+      </section>
+
+      <section class="grid" data-reveal>
+        <article class="card">
+          <h3>Clarity</h3>
+          <p>Turn fuzzy ideas into a focused plan you can act on.</p>
+        </article>
+        <article class="card">
+          <h3>Momentum</h3>
+          <p>Ship in small, confident steps with clear next actions.</p>
+        </article>
+        <article class="card">
+          <h3>Signal</h3>
+          <p>Learn what matters before you commit heavy time or budget.</p>
+        </article>
+      </section>
+
+      <section class="steps" data-reveal>
+        <div>
+          <h2>How it works</h2>
+          <p>We are building a lightweight product that stays close to your goals, keeps you focused, and surfaces the right next step.</p>
+        </div>
+        <ol>
+          <li><span>01</span> Define the problem in one page.</li>
+          <li><span>02</span> Validate with real-world signals.</li>
+          <li><span>03</span> Launch a tight first version.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>whereimspendingtime.com</span>
+      <span>Built in public. Updates coming soon.</span>
+    </footer>
+  </body>
+</html>
